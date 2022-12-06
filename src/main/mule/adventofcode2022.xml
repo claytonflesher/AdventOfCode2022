@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
+	<flow name="day1-a" doc:id="d2e305b6-9d23-4523-91ef-55c31d8b826f" >
+		<ee:transform doc:name="Transform Message" doc:id="70b0122d-ca0f-4a1c-b4d3-95ecdf83eb9d" >
+			<ee:message >
+				<ee:set-payload resource="dwl/day1-a.dwl" />
+			</ee:message>
+		</ee:transform>
+	</flow>
+	<flow name="day1-b" doc:id="e3f904dd-318b-4148-a4d1-bfc52b9fbafe" >
+		<ee:transform doc:name="Transform Message" doc:id="b2ed575f-62a9-44f2-9756-e4fc1a090c29" >
+			<ee:message >
+				<ee:set-payload resource="dwl/day1-b.dwl" />
+			</ee:message>
+		</ee:transform>
+	</flow>
+	<flow name="day2-a" doc:id="24523439-f977-4747-ac3c-91e9b89c2952" >
+		<ee:transform doc:name="Transform Message" doc:id="c49b6b19-ab81-4b76-b517-f5325d4ccabb" >
+			<ee:message >
+				<ee:set-payload resource="dwl/day2-a.dwl" />
+			</ee:message>
+		</ee:transform>
+	</flow>
+	<flow name="day2-b" doc:id="9d0d6f9a-d885-4852-a7dc-0322f0d82360" >
+		<ee:transform doc:name="Transform Message" doc:id="132a7bcb-7a21-4db8-baed-ca6f07e7d8c5" >
+			<ee:message >
+				<ee:set-payload resource="dwl/day2-b.dwl" />
+			</ee:message>
+		</ee:transform>
+	</flow>
+	<flow name="day3-a" doc:id="d42c3d62-f213-419c-abd9-16c2789c202b" >
+		<ee:transform doc:name="Transform Message" doc:id="a4ae05a7-efcc-45e6-be9a-e95ea98ba68e" >
+			<ee:message >
+				<ee:set-payload resource="dwl/day3-a.dwl" />
+			</ee:message>
+		</ee:transform>
+	</flow>
+	<flow name="day3-b" doc:id="e3e51cd9-c254-4bf4-8f12-a5a47c762e69" >
+		<ee:transform doc:name="Transform Message" doc:id="f865ed7e-804e-4021-b2bf-13b2c94cd8dc" >
+			<ee:message >
+				<ee:set-payload resource="dwl/day3-b.dwl" />
+			</ee:message>
+		</ee:transform>
+	</flow>
+	<flow name="day4-a" doc:id="97a33e6e-8511-4122-a770-526dc54ad160" >
+		<ee:transform doc:name="Transform Message" doc:id="bb7ee8ec-f091-493d-bfd6-9dee678b770a" >
+			<ee:message >
+				<ee:set-payload resource="dwl/day4-a.dwl" />
+			</ee:message>
+		</ee:transform>
+	</flow>
+	<flow name="day4-b" doc:id="8e235dd9-5e0b-4b2d-8920-e0205252b710" >
+		<ee:transform doc:name="Transform Message" doc:id="0cb3db6b-9ab5-4df6-9959-16c8c17343d5" >
+			<ee:message >
+				<ee:set-payload resource="dwl/day4-b.dwl" />
+			</ee:message>
+		</ee:transform>
+	</flow>
+	<flow name="day5-a" doc:id="ae962840-6600-48e7-8dbf-fbbb283e23e4" >
+		<ee:transform doc:name="Transform Message" doc:id="1c416543-270e-44bb-8451-3e0ef24e4905" >
+			<ee:message >
+				<ee:set-payload resource="dwl/day5-a.dwl" />
+			</ee:message>
+		</ee:transform>
+	</flow>
+	<flow name="day5-b" doc:id="d42bed81-1164-435c-b563-045a45597440" >
+		<ee:transform doc:name="Transform Message" doc:id="1efe6950-6309-4851-8269-9e930288e5e6" >
+			<ee:message >
+				<ee:set-payload resource="dwl/day5-b.dwl" />
+			</ee:message>
+		</ee:transform>
+	</flow>
+	<flow name="day6-a" doc:id="4ec40478-b90e-45c3-9954-c9cf164b8e95" >
+		<ee:transform doc:name="Transform Message" doc:id="e739bb35-1d70-4d19-b9d9-2ea3d2977f0b" >
+			<ee:message >
+				<ee:set-payload resource="dwl/day6-a.dwl" />
+			</ee:message>
+		</ee:transform>
+	</flow>
+	<flow name="day6-b" doc:id="d5eb3423-35c4-4a75-bb87-4068e9464233" >
+		<ee:transform doc:name="Transform Message" doc:id="dc54d8cb-f189-4a8a-ac95-b1c6d14886dc" >
+			<ee:message >
+				<ee:set-payload resource="dwl/day6-b.dwl" />
+			</ee:message>
+		</ee:transform>
+	</flow>
+</mule>
